@@ -15,7 +15,7 @@ class FormController extends Controller
     {
         return view('form.forminput');
     }
-    public function Search()
+    public function Search(Request $request)
     {
         if($request->has('cari')){
             $dataFormInput = \App\Models\formInput::where('nama', 'LIKE', '%'. $request->cari .'%')->get();
