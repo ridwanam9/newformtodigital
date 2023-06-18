@@ -79,14 +79,14 @@
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox"
                                                     name="kegawatanpernafasan[]" id="dyspnoe"
-                                                    {{-- value="dyspnoe" --}}
+                                                    value="dyspnoe"
                                                     <?php if (strpos($formInputView2['kegawatanpernafasan'],'dyspnoe') !== false) echo 'checked="checked"'; ?>>
                                                 <label class="form-check-label" for="dyspnoe">Dyspnoe</label>
                                             </div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox"
                                                     name="kegawatanpernafasan[]" id="nafastakteratur"
-                                                    {{-- value="nafastakteratur" --}}
+                                                    value="nafastakteratur"
                                                     <?php if (strpos($formInputView2['kegawatanpernafasan'],'nafastakteratur') !== false) echo 'checked="checked"'; ?>>
                                                 <label class="form-check-label" for="nafastakteratur">Nafas Tak
                                                     Teratur</label>
@@ -94,7 +94,7 @@
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox"
                                                     name="kegawatanpernafasan[]" id="adasekret"
-                                                    {{-- value="adasekret" --}}
+                                                    value="adasekret"
                                                     <?php if (strpos($formInputView2['kegawatanpernafasan'],'adasekret') !== false) echo 'checked="checked"'; ?>>
                                                 <label class="form-check-label" for="ada-sekret">Ada
                                                     sekret</label>
@@ -102,7 +102,7 @@
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox"
                                                     name="kegawatanpernafasan[]" id="nafas-cepat-dan-dangkal"
-                                                    {{-- value="nafascepatdandangkal" --}}
+                                                    value="nafascepatdandangkal"
                                                     <?php if (strpos($formInputView2['kegawatanpernafasan'],'nafascepatdandangkal') !== false) echo 'checked="checked"'; ?>>
                                                 <label class="form-check-label" for="nafas-cepat-dan-dangkal">Nafas
                                                     cepat dan
@@ -111,7 +111,7 @@
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox"
                                                     name="kegawatanpernafasan[]" id="nafas-melalui-mulut"
-                                                    {{-- value="nafasmelaluimulut" --}}
+                                                    value="nafasmelaluimulut"
                                                     <?php if (strpos($formInputView2['kegawatanpernafasan'],'nafasmelaluimulut') !== false) echo 'checked="checked"'; ?>>
                                                 <label class="form-check-label" for="nafas-melalui-mulut">Nafas melalui
                                                     mulut</label>
@@ -120,14 +120,14 @@
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox"
                                                     name="kegawatanpernafasan[]" id="spo2-normal"
-                                                    {{-- value="spo2normal" --}}
+                                                    value="spo2normal"
                                                     <?php if (strpos($formInputView2['kegawatanpernafasan'],'spo2normal') !== false) echo 'checked="checked"'; ?>>
                                                 <label class="form-check-label" for="spo2-normal">SpO2normal</label>
                                             </div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox"
                                                     name="kegawatanpernafasan[]" id="nafaslambat"
-                                                    {{-- value="nafaslambat" --}}
+                                                    value="nafaslambat"
                                                     <?php if (strpos($formInputView2['kegawatanpernafasan'],'nafaslambat') !== false) echo 'checked="checked"'; ?>>
                                                 <label class="form-check-label" for="nafaslambat">Nafas
                                                     lambat</label>
@@ -136,7 +136,7 @@
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox"
                                                     name="kegawatanpernafasan[]" id="mukosaoralkering"
-                                                    {{-- value="mukosaoralkering" --}}
+                                                    value="mukosaoralkering"
                                                     <?php if (strpos($formInputView2['kegawatanpernafasan'],'mukosaoralkering') !== false) echo 'checked="checked"'; ?>>
                                                 <label class="form-check-label" for="mukosaoralkering">Mukosa oral
                                                     kering</label>
@@ -144,7 +144,7 @@
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox"
                                                     name="kegawatanpernafasan[]" id="takkegawatan"
-                                                    {{-- value="tak" --}}
+                                                    value="tak"
                                                     <?php if (strpos($formInputView2['kegawatanpernafasan'],'tak') !== false) echo 'checked="checked"'; ?>>
                                                 <label class="form-check-label" for="takkegawatan">T.A.K</label>
                                             </div><br>
