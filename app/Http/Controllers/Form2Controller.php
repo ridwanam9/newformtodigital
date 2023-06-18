@@ -51,7 +51,7 @@ class Form2Controller extends Controller
             $saveRecord->norm = $request->norm;
             $saveRecord->kegawatanpernafasan = json_encode($request->kegawatanpernafasan);
             // $saveRecord->kegawatanpernafasan = $request->kegawatanpernafasan;
-            $saveRecord->kehilangantinusotot = $request->kehilangantinusotot;
+            $saveRecord->kehilangantinusotot = json_encode($request->kehilangantinusotot);
             $saveRecord->perlambatansirkulasi = json_encode($request->perlambatansirkulasi);
             $saveRecord->nyeri = $request->nyeri;
             $saveRecord->bagiannyeri = $request->bagiannyeri;
@@ -173,8 +173,8 @@ public function formInputEdit( $id)
             'tanggallahir'     => $request->tanggallahir,
             //'kegawatanpernafasan'   =>$request->has('kegawatanpernafasan'),
             'alamat'     => $request->alamat,
-            // 'kegawatanpernafasan'   => json_encode($request->kegawatanpernafasan),
-            'kegawatanpernafasan'   => $request->kegawatanpernafasan,
+            'kegawatanpernafasan'   => json_encode($request->kegawatanpernafasan),
+            // 'kegawatanpernafasan'   => $request->kegawatanpernafasan,
             'kehilangantinusotot' => json_encode($request->kehilangantinusotot),
             'perlambatansirkulasi' => json_encode($request->perlambatansirkulasi),
             'nyeri' => $request->nyeri,
